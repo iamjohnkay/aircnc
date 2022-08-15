@@ -1,0 +1,162 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header{
+  border: 1px solid #DCE0E0;
+}
+
+.hero img{
+  width: 100%;
+}
+
+/**
+.profile{
+  width: 660px;
+  padding: 50px;
+  border: 1px solid green;
+  float: left;
+  margin: 0 auto;
+  height: 148;
+}
+
+.owner-details{
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  color: #909597;
+}
+
+.owner-details img{
+  width: 90;
+  height: 90;
+}
+
+.pet-details{
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 22px;
+  color: #666a6c;
+  padding: 25px;
+}
+
+address{
+  
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.booking{
+  width: 380px;
+  padding: 15px;
+  border: 1px solid red;
+  float: right;
+}
+**/
+
+.info{
+ 
+    background: #FFF;
+    text-align: center;
+   
+
+}
+
+.owner-details{
+  margin: 15px;
+}
+.info .owner-details img{
+  border-radius: 50%;
+
+}
+.info h1{
+  font-weight: regular;
+  font-size: 22px;
+  color: #666A6C;
+
+}
+
+.pet-details{
+  margin: 15px
+  ;
+}
+
+.info .icons div{
+  float: left;
+  color: #909597;
+  font-weight: bold;
+  width: 33.3%;
+  font-size: 14px;
+
+}
+.info h2.relation, .info h2.name{
+  color: #909597;
+  
+}
+.info h2.name{
+  font-weight: bold;
+}
+
+.info .booking{
+  margin: 15px;
+
+}
+
+.info .booking h2{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.info .booking span{
+ 
+}
